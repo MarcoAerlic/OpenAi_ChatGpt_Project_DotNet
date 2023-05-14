@@ -1,0 +1,12 @@
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\bin\Debug\net6.0\MarcosWebApiProject.ApplicationService.deps.json
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\bin\Debug\net6.0\MarcosWebApiProject.ApplicationService.dll
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\bin\Debug\net6.0\MarcosWebApiProject.ApplicationService.pdb
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.csproj.AssemblyReference.cache
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.AssemblyInfo.cs
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.dll
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\refint\MarcosWebApiProject.ApplicationService.dll
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\MarcosWebApiProject.ApplicationService.pdb
+C:\Users\MarcoAerlic\source\repos\MarcosWebApiProject\MarcosWebApiProject.ApplicationService\obj\Debug\net6.0\ref\MarcosWebApiProject.ApplicationService.dll
