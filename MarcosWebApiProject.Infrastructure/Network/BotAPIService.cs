@@ -38,7 +38,7 @@ namespace MarcosWebApiProject.Infrastructure.Network
 
             };
             var result = await api.Completions.CreateCompletionsAsync(completionRequest);
-            foreach (var choice in result.Completions)
+            foreach (var choice in result.Completions.DistinctBy(choice => choice.Text))
             {
                 rs = choice.Text;
                 rq.Add(choice.Text);
