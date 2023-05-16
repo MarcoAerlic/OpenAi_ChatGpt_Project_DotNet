@@ -480,11 +480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MarcoAerlic\\source\\repos\\MarcosWebApiProject\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj",
+      "projectUniqueName": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj",
       "projectName": "MarcosWebApiProject.ApplicationService",
-      "projectPath": "C:\\Users\\MarcoAerlic\\source\\repos\\MarcosWebApiProject\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj",
+      "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj",
       "packagesPath": "C:\\Users\\MarcoAerlic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MarcoAerlic\\source\\repos\\MarcosWebApiProject\\MarcosWebApiProject.ApplicationService\\obj\\",
+      "outputPath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

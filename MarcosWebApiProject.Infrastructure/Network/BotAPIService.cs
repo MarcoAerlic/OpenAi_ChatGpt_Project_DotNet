@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenAI_API.Chat;
+using System.Reflection.Metadata;
 
 namespace MarcosWebApiProject.Infrastructure.Network
 {
@@ -26,23 +28,70 @@ namespace MarcosWebApiProject.Infrastructure.Network
             List<string> rq = new List<string>();
             string rs = "";
             OpenAIAPI api = new OpenAIAPI(new APIAuthentication(apiKey));
-            var completionRequest = new OpenAI_API.Completions.CompletionRequest()
-            {
-                Prompt = generateRequestModel.prompt,
-                Model = apiModel,
-                Temperature = 0.5,
-                MaxTokens = 100,
-                TopP = 1.0,
-                FrequencyPenalty = 0.0,
-                PresencePenalty = 0.0,
+            /*   var completionRequest = new OpenAI_API.Completions.CompletionRequest()
+               {
+                   Prompt = generateRequestModel.prompt,
+                   Model = apiModel,
+                   Temperature = 0.5,
+                   MaxTokens = 100,
+                   TopP = 1.0,
+                   FrequencyPenalty = 0.0,
+                   PresencePenalty = 0.0,
 
-            };
-            var result = await api.Completions.CreateCompletionsAsync(completionRequest);
-            foreach (var choice in result.Completions)
+               };
+               var result = await api.Completions.CreateCompletionsAsync(completionRequest);*/
+
+            //Required for gpt 3.5 or gpt 4 models
+            if (apiModel.Contains("gpt"))
             {
-                rs = choice.Text;
-                rq.Add(choice.Text);
+                var chatRequest = new ChatRequest()
+                {
+                    Messages = new List<ChatMessage>()
+                {
+                    new ChatMessage()
+                    {
+                        Content = generateRequestModel.prompt
+                    }
+                },
+                    Model = apiModel,
+                    Temperature = 0.5,
+                    MaxTokens = 100,
+                    TopP = 1.0,
+                    FrequencyPenalty = 0.0,
+                    PresencePenalty = 0.0,
+
+                };
+                var result = await api.Chat.CreateChatCompletionAsync(chatRequest);
+
+                foreach (var choice in result.Choices.DistinctBy(choice => choice.Message))
+                {
+                    rs = choice.Message.Content;
+                    rq.Add(choice.Message.Content);
+
+                }
             }
+            else
+            {
+                var completionRequest = new OpenAI_API.Completions.CompletionRequest()
+                {
+                    Prompt = generateRequestModel.prompt,
+                    Model = apiModel,
+                    Temperature = 0.5,
+                    MaxTokens = 100,
+                    TopP = 1.0,
+                    FrequencyPenalty = 0.0,
+                    PresencePenalty = 0.0,
+
+                };
+
+                var result = await api.Completions.CreateCompletionsAsync(completionRequest);
+                foreach (var choice in result.Completions.DistinctBy(choice => choice.Text))
+                {
+                    rs = choice.Text;
+                    rq.Add(choice.Text);
+                }
+            }
+
             return rq;
         }
 
