@@ -53,9 +53,7 @@ namespace MarcosWebApiProject.Infrastructure.Network
 
                 foreach (var choice in result.Choices.DistinctBy(choice => choice.Message))
                 {
-                    rs = choice.Message.Content;
                     rq.Add(choice.Message.Content);
-
                 }
             }
             else
@@ -75,7 +73,6 @@ namespace MarcosWebApiProject.Infrastructure.Network
                 var result = await api.Completions.CreateCompletionsAsync(completionRequest);
                 foreach (var choice in result.Completions.DistinctBy(choice => choice.Text))
                 {
-                    rs = choice.Text;
                     rq.Add(choice.Text);
                 }
             }
