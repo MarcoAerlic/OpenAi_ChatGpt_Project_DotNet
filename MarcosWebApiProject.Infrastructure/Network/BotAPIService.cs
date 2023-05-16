@@ -28,31 +28,18 @@ namespace MarcosWebApiProject.Infrastructure.Network
             List<string> rq = new List<string>();
             string rs = "";
             OpenAIAPI api = new OpenAIAPI(new APIAuthentication(apiKey));
-            /*   var completionRequest = new OpenAI_API.Completions.CompletionRequest()
-               {
-                   Prompt = generateRequestModel.prompt,
-                   Model = apiModel,
-                   Temperature = 0.5,
-                   MaxTokens = 100,
-                   TopP = 1.0,
-                   FrequencyPenalty = 0.0,
-                   PresencePenalty = 0.0,
 
-               };
-               var result = await api.Completions.CreateCompletionsAsync(completionRequest);*/
-
-            //Required for gpt 3.5 or gpt 4 models
             if (apiModel.Contains("gpt"))
             {
-                var chatRequest = new ChatRequest()
-                {
-                    Messages = new List<ChatMessage>()
-                {
-                    new ChatMessage()
+                    var chatRequest = new ChatRequest()
                     {
-                        Content = generateRequestModel.prompt
-                    }
-                },
+                        Messages = new List<ChatMessage>()
+                    {
+                        new ChatMessage()
+                        {
+                            Content = generateRequestModel.prompt
+                        }
+                    },
                     Model = apiModel,
                     Temperature = 0.5,
                     MaxTokens = 100,
@@ -61,6 +48,7 @@ namespace MarcosWebApiProject.Infrastructure.Network
                     PresencePenalty = 0.0,
 
                 };
+
                 var result = await api.Chat.CreateChatCompletionAsync(chatRequest);
 
                 foreach (var choice in result.Choices.DistinctBy(choice => choice.Message))
