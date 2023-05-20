@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fzg1cbxdrwiAOjQ75Qs/W9ixWddjH2chmyygoVAfbAsdqliWvYWjbFd//sRT5NyztxOtUvOgKvTJoG88c/IsLA==",
+  "dgSpecHash": "3tGhfS1NaDrMAaD0BfCwanx2hIef0xP3i2/F1RmmuyQco9IqTH7LSLE6wmh9U83gUWDJqaeLVJLtVfiS+saZGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj",
+  "projectFilePath": "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MarcoAerlic\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\MarcoAerlic\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",

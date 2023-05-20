@@ -732,11 +732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject\\MarcosWebApiProject.API.csproj",
+      "projectUniqueName": "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject\\MarcosWebApiProject.API.csproj",
       "projectName": "MarcosWebApiProject.API",
-      "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject\\MarcosWebApiProject.API.csproj",
+      "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject\\MarcosWebApiProject.API.csproj",
       "packagesPath": "C:\\Users\\MarcoAerlic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject\\obj\\",
+      "outputPath": "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -758,11 +758,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj": {
-              "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj"
+            "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj": {
+              "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.ApplicationService\\MarcosWebApiProject.ApplicationService.csproj"
             },
-            "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.Infrastructure\\MarcosWebApiProject.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\MarcosChatGptGitHubRepo\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.Infrastructure\\MarcosWebApiProject.Infrastructure.csproj"
+            "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.Infrastructure\\MarcosWebApiProject.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\MarcoAerlic\\Repos\\Parser_new_1\\OpenAi_ChatGpt_Project_DotNet\\MarcosWebApiProject.Infrastructure\\MarcosWebApiProject.Infrastructure.csproj"
             }
           }
         }
